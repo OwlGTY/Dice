@@ -55,13 +55,12 @@ class Die //models one single dice cube
     myX = x;
     myY = y;
   }
-  
+
   void roll()
   {
     digit = ((int)(Math.random()*6)+1);
-
   }
-      
+
   void show()
   {
     fill(255);
